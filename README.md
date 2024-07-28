@@ -15,22 +15,22 @@
 ## Steps:
 
 1. Set up the hardware
-- Connect components according to the circuit diagram above
+   - Connect components according to the circuit diagram above
   
 2. Install required libraries
-- Open Arduino IDE
-- Go to Sketch > Include Library > Add .ZIP Library
-- Select TinyGPSPlus.zip (It is included in this repository. Just download it)
+   - Open Arduino IDE
+   - Go to Sketch > Include Library > Add .ZIP Library
+   - Select TinyGPSPlus.zip (It is included in this repository. Just download it)
 
 3. Upload the code
-- Copy the provided code into Arduino IDE
-- Modify the emergency contact number in the `SendMessage()` function
-- Upload the code to your Arduino board
+   - Copy the provided code into Arduino IDE
+   - Modify the emergency contact number in the `SendMessage()` function
+   - Upload the code to your Arduino board
 
 4. Test the system
-- Power on the device
-- Simulate an accident by shaking the accelerometer
-- Verify that the buzzer sounds and an SMS alert is sent
+   - Power on the device
+   - Simulate an accident by shaking the accelerometer
+   - Verify that the buzzer sounds and an SMS alert is sent
 
 ## How it works:
 
