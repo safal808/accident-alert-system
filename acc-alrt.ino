@@ -1,3 +1,4 @@
+//I didn't write this code from scratch. So it contains some unnecessary functions too.
 #include <SoftwareSerial.h>
 #include <TinyGPS++.h>
 
