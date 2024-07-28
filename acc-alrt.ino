@@ -3,8 +3,8 @@
 
 
 TinyGPSPlus gps;
-SoftwareSerial mygps(3, 4); // 3 tx 4 rx
-SoftwareSerial SIM900A(6, 5); // tx rx
+SoftwareSerial mygps(4, 3); // 4 tx 3 rx
+SoftwareSerial SIM900A(5, 6); // tx rx
 
 #define BUZZER_PIN 11
 #define button 9
